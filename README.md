@@ -23,9 +23,10 @@ I have also put together my own resource:
 ---
 ## Table of Contents
 
-- [Basics](/assets/basics.md)
-- [Blog posts & Talks](/assets/blogposts.md)
-- [Books](/assets/books.md)
+- [Intro to Solana](/assets/basics.md)
+- [Initial Setup](/assets/blogposts.md)
+- [Client Side Devlopement](/assets/books.md)
+  - [Reading and Writing data on blockchain](/assets/books.md)
 - [Setup](/assets/setup.md)
 - [Tools](/assets/tools.md)
 - [Labs & Testing Environments](/assets/labs.md)
