@@ -25,7 +25,7 @@ I have also put together my own resource:
 
 - [Intro to Solana](/assets/basics.md)
 - [Initial Setup](/assets/blogposts.md)
-- [Client Side Devlopement](/assets/books.md)
+### Client Side Devlopement
   - [Reading and Writing data on blockchain](/assets/books.md)
 - [Setup](/assets/setup.md)
 - [Tools](/assets/tools.md)
