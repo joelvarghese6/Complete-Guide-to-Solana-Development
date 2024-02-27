@@ -23,10 +23,11 @@ I have also put together my own resource:
 ---
 ## Table of Contents
 
+### Prerequisites
 - [Intro to Solana](/assets/basics.md)
 - [Initial Setup](/assets/blogposts.md)
-#### Client Side Devlopement
-  - [Reading and Writing data on blockchain](/assets/books.md)
+### Client Side Devlopement
+- [Reading and Writing data on blockchain](/assets/books.md)
 - [Setup](/assets/setup.md)
 - [Tools](/assets/tools.md)
 - [Labs & Testing Environments](/assets/labs.md)
