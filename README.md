@@ -59,7 +59,10 @@ I have also put together my own resource:
 - [Integrating payment sysytem to movie review app](/assets/labs.md)
 ### Anchor on Solana
 - [Introduction to Anchor]()
-- [Setting up]()
+- [PDAs in Anchor]()
+- [CPI in Anchor]()
+- [Anchoring to typescript]()
+- [Final movie review app]()
 
 ---
 If you have more questions or suggestions, check out [NahamSec's Discord](https://discord.gg/9jZxjQ5)!<br>
