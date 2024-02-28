@@ -40,7 +40,7 @@ I have also put together my own resource:
 - [Creating a collection of NFTs](/assets/setup.md)
 - [Displaying NFTs from a wallet](/assets/setup.md)
 - [Displaying all NFTs from a Candy Machine](/assets/setup.md)
-### Program Developement
+### Program Developement using Solana Playground
 - [Introduction](/assets/setup.md)
 - [Playing with Rust](/assets/setup.md)
 - [Layers in Rust](/assets/setup.md)
@@ -48,14 +48,18 @@ I have also put together my own resource:
 - [State Management in Solana](/assets/setup.md)
 - [Best Practices and secure coding](/assets/setup.md)
 - [Building an NFT staking Program](/assets/setup.md)
-- [Tools](/assets/tools.md)
-- [Labs & Testing Environments](/assets/labs.md)
-- [Talks](/assets/talks.md)
-- [Vulnerability Types](/assets/vulns.md)
-- [Mobile Hacking](/assets/mobile.md)
-- [Coding & Scripting](/assets/coding.md)
-- [Media Resources](/assets/media.md)
-- [Mindset & Mental Health](/assets/health.md)
+### Setting up Program locally
+- [Initial Setup](/assets/tools.md)
+- [PDAs](/assets/tools.md)
+- [Building Comment Section to our program](/assets/tools.md)
+- [Building Comment Section to our program](/assets/tools.md)
+### Cross Program Invocation (CPI)
+- [What's the point of CPI](/assets/labs.md)
+- [Integrating payment sysytem to movie review app](/assets/labs.md)
+- [Integrating payment sysytem to movie review app](/assets/labs.md)
+### Anchor on Solana
+- [Introduction to Anchor]()
+- [Setting up]()
 
 ---
 If you have more questions or suggestions, check out [NahamSec's Discord](https://discord.gg/9jZxjQ5)!<br>
