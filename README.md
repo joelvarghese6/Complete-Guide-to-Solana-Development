@@ -26,9 +26,28 @@ I have also put together my own resource:
 ### Prerequisites
 - [Intro to Solana](/assets/basics.md)
 - [Initial Setup](/assets/blogposts.md)
-### Client Side Devlopement
+### Client Side Developement
 - [Reading and Writing data on blockchain](/assets/books.md)
-- [Setup](/assets/setup.md)
+- [Connecting to Wallets](/assets/books.md)
+- [Tailored Instructions](/assets/books.md)
+### SPL Tokens
+- [Intro to SPL Tokens](/assets/setup.md)
+- [Creating and Minting SPL Token](/assets/setup.md)
+- [Giving Identity to SPL Token](/assets/setup.md)
+### NFTS
+- [Intro to NFTs](/assets/setup.md)
+- [Creating an NFT](/assets/setup.md)
+- [Creating a collection of NFTs](/assets/setup.md)
+- [Displaying NFTs from a wallet](/assets/setup.md)
+- [Displaying all NFTs from a Candy Machine](/assets/setup.md)
+### Program Developement
+- [Introduction](/assets/setup.md)
+- [Playing with Rust](/assets/setup.md)
+- [Layers in Rust](/assets/setup.md)
+- [First Program](/assets/setup.md)
+- [State Management in Solana](/assets/setup.md)
+- [Best Practices and secure coding](/assets/setup.md)
+- [Building an NFT staking Program](/assets/setup.md)
 - [Tools](/assets/tools.md)
 - [Labs & Testing Environments](/assets/labs.md)
 - [Talks](/assets/talks.md)
