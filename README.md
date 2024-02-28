@@ -13,11 +13,11 @@ If you are interested in learning about top bug bounty hunters in the community 
 
 
 ## NahamSec's Personal Resource:
-I have also put together my own resource:
+The informations in this repository was taken from the follwing resource:
 
-- [NahamSec's Udemy Course](https://www.udemy.com/course/intro-to-bug-bounty-by-nahamsec/?couponCode=NAHOMIES)
-- [NahamSec's Udemy Labs](https://github.com/nahamsec/nahamsec.training)
-- [Nahamsec on YouTube](https://www.youtube.com/NahamSec) 
+- [Solana Cook Book](https://solanacookbook.com/)
+- [Buildspace](https://buildspace.so/p/solana-core)
+- [](https://www.youtube.com/NahamSec) 
 - [Nahamsec on Twitch](https://www.twitch.tv/nahamsec)
 
 ---
@@ -65,5 +65,5 @@ I have also put together my own resource:
 - [Final movie review app]()
 
 ---
-If you have more questions or suggestions, check out [NahamSec's Discord](https://discord.gg/9jZxjQ5)!<br>
+If you have more questions or suggestions, message me on my [telegram](https://t.me/joelvarghese6)!<br>
 
