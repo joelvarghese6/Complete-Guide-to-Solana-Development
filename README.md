@@ -12,7 +12,7 @@ We understand that there are more topics other than the ones we have listed and 
 The informations in this repository was taken from the following resources:
 
 - [Solana Cook Book](https://solanacookbook.com/)
-= [Solana Developer Guide](https://solana.com/developers/guides/) 
+- [Solana Developer Guide](https://solana.com/developers/guides/) 
 - [Buildspace](https://buildspace.so/p/solana-core)
 
 ---
