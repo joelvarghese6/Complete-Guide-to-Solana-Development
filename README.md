@@ -1,29 +1,24 @@
-# Resources-for-Beginner-Bug-Bounty-Hunters
+# The Complete Guide for Beginners in Solana Development
 
 
 
 
 ## Intro
-### Current Version: 2023.01
-Welcome to our web hacking and bug bounty hunting resource repository! A curated collection of web hacking tools, tips, and resources is available here. We hope that this repository will be a valuable resource for you as you work to secure the internet and make it a safer place for everyone, whether you're a seasoned bug bounty hunter or just getting started.
+Welcome to our beginners guide to solana repository! This guide is will be your gateway to understanding the fundamentals of Solana development, whether you're a seasoned blockchain developer or just getting started with decentralized applications. This will help you through the essential concepts, tools, and best practices to empower you to create cutting-edge applications on the Solana blockchain.
 
-We understand that there are more resources other than the ones we have listed and we hope to cover more resources in the near future!<br>
+We understand that there are more topics other than the ones we have listed and we hope to cover more resources in the near future!<br>
 
-If you are interested in learning about top bug bounty hunters in the community check out my [Live Recon VODs](https://www.youtube.com/playlist?list=PLKAaMVNxvLmAkqBkzFaOxqs3L66z2n8LA).
-
-
-## NahamSec's Personal Resource:
-The informations in this repository was taken from the follwing resource:
+## References:
+The informations in this repository was taken from the following resources:
 
 - [Solana Cook Book](https://solanacookbook.com/)
+= [Solana Developer Guide](https://solana.com/developers/guides/) 
 - [Buildspace](https://buildspace.so/p/solana-core)
-- [](https://www.youtube.com/NahamSec) 
-- [Nahamsec on Twitch](https://www.twitch.tv/nahamsec)
 
 ---
 ## Table of Contents
 
-### Prerequisites
+### Pre-Requisites
 - [Intro to Solana](/assets/basics.md)
 - [Initial Setup](/assets/blogposts.md)
 ### Client Side Developement
