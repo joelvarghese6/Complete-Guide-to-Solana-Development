@@ -1,28 +1,74 @@
-# Resources-for-Beginner-Bug-Bounty-Hunters
+# Complete Guide to Solana Developement
 
 ## Setup 💻
-This section will help you set up your testing environement.
-- [Setting Up Your Ubuntu Box for Pentest and Bug Bounty Automation](https://www.youtube.com/watch?v=YhUiAH5SIqk) - by NahamSec
-- [Setting up your own web server on a VPS](https://www.linux.com/learn/easy-lamp-server-installation)
-- [Setting up virtualbox + linux](https://linuxconfig.org/how-to-install-kali-linux-on-virtualbox)
-- [Docker For Pentesting And Bug Bounty Hunting](https://www.youtube.com/watch?v=5G6tA8Q9AuQ)
-- [Basics of UNIX](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
-- [Finding your First Bug and Getting a Bounty - Personal Story by @InsiderPhD](https://www.youtube.com/watch?v=iEDoIEBD7gM) - YouTube Discussion
-- [Introduction to Docker for CTFs](https://www.youtube.com/watch?v=cPGZMt4cJ0I) (Works for Bug Bounty too) - by LiveOverflow
-- [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo) - freecodecamp
-- [Creating Wordlists for Pentesting & Bug Bounty](https://www.youtube.com/watch?v=QGbTaxtEQlg) - by nahamsec
-- [Setup bugbounty hunting env on termux](https://www.hahwul.com/2020/05/setup-bugbounty-hunting-env-on-termux-d.html?m=1) - by @hahwul
-- [Technical Project Ideas Towards Learning Cyber Security](https://mchow01.github.io/education/security/projects/2020/06/19/technical_projects_security.html) - by [Ming Y. Chow](https://mchow01.github.io/)
+This section will help you set up your Developing environement.
 
-## Burp Suite
-This section should help you get familiar with BurpSuite.
-- [Setting up Burp (Video Series)](https://www.hacker101.com/playlists/burp_suite) by Hacker101
-- [Burp Suite Introduction](https://github.com/bugcrowd/bugcrowd_university/blob/master/An_introduction_to_Burp_Suite/Bugcrowd%20University%20-%20Burp%20Suite%20Introduction.pdf) by Jason Haddix
-- [Beginners Guide to Burpsuite Payloads (Part 1)](https://www.hackingarticles.in/beginners-guide-burpsuite-payloads-part-1/) by Raj Chandel
-- [Burp Hacks for Bounty Hunters](https://www.youtube.com/watch?v=boHIjDHGmIo) by James Kettle
+### 1. Installing Dependencies
 
-## Tools
-- [Getting Starting With Tmux Isn't That Scary](https://www.youtube.com/watch?v=Z5sEEbwngd0)
--
----
-back to [Intro Page](/README.md)
+Just because Rust compiles and builds your software into a binary that can run for the computer architecture we specify, we need to install some OS-level dependencies on our machine.
+
+#### Dependencies for Windows
+You can get started with Solana on Windows with WSL, the Windows subsystem for Linux. WSL allows you to run Linux software easily on Windows using a lightweight VM that instantly starts when you need it.
+
+First start with installing WSL on your system. Be sure to restart your computer when installation is done, then continue this guide.
+
+```
+wsl --install
+```
+
+After installing WSL and restarting your computer, open a new Linux terminal session using WSL:
+```
+wsl
+```
+
+For the remainder of this guide and your Solana development using WSL, you will run all your commands, Solana builds, and program deployments inside this Linux terminal (except where otherwise noted in this guide).
+If you are using VS Code as your code editor of choice, we recommend you follow this tutorial on the VS Code website to properly configure VS Code and WSL together. This will give you the best developer experience.
+
+#### Dependencies for Linux
+Install the following dependencies on your Linux system:
+```
+sudo apt-get install -y \
+    build-essential \
+    pkg-config \
+    libudev-dev llvm libclang-dev \
+    protobuf-compiler libssl-dev
+```
+
+#### Dependencies for macOS
+In macOS, build tools are given by Xcode command line tools, which you can download it directly from Apple. You will likely need to sign in with your Apple ID to download.
+You can check if the Xcode CLI is installed via this command:
+```
+xcode-select -p
+```
+If you don't see a path returned, you need to install the CLI tools.
+
+There are different ways to install Xcode CLI tools:
+1. Installing via your terminal using the following command:
+```
+xcode-select --install
+```
+2. Download the installer and install it with a graphical interface Apple Developer Tools
+
+### Install Rust
+The Rust programming language is a multi-paradigm, general-purpose programming language that emphasizes performance, type safety, and concurrency.
+Using rustup, the official Rust version installer and manager, we will install rustc (the compiler for rust) and cargo (the package manager for rust) all at once.
+
+Using the following command, we can install and configure the Rust tooling on your local system. The following command will automatically download the correct binaries needed for your specific operating system:
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+```
+As part of this Rust installer, Rustup will also configure your terminal's PATH to include the rust toolchain.
+
+After the installation is complete, restart your terminal or run the following command to manually refresh your new PATH settings to make the rust tooling (like cargo) available:
+```
+source ~/.bashrc
+```
+
+### 3. Install the Solana CLI
+For local development, including compiling your Solana programs, you will need to install the Solana CLI. This command-line tool suite provides all the commands needed to perform common tasks, like:
+
+- creating and managing file-system Solana wallets/keypairs,
+- connecting to Solana clusters,
+- building Solana programs,
+- and deploying your programs to the blockchain
+
